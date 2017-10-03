@@ -1,0 +1,88 @@
+body{background-color:#F5F6F7 }
+
+#root{display: flex;
+flex-direction: column;
+justify-content:center;
+align-items: flex-end;
+background-color: #F5F6F7;
+}
+				#upPanel{display: flex;
+		
+	                    cursor: pointer;}
+
+				.textUpPanel{font-size: 18px;
+		                     padding: 10px;
+		
+	                         cursor: pointer;}
+	             #basket{display: flex;
+								padding: 10px;
+								width: 20px;
+								height: 20px;
+								}
+
+		
+#root2{background-color:#F5F6F7}
+
+			#root2 div{display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+			.product{
+			border:6px solid #aa9b77;
+			width: 314px;
+			height: 374px;
+			background-color: #f5f6f7
+		}
+
+
+
+		 .product div img{padding-left: 25%}
+
+ 		 .product button {
+ 							border-radius: 4px;
+ 							width: 315px;
+ 						height: 30px;
+ 						 }
+
+#root3{display: flex;
+	justify-content: center;
+}
+	.buttonsBasket{width:100px;
+		border-radius: 2px;}
+	.divBasket{font-weight: 600;
+		font-size: 30px;}
+
+
+
+
+	
+		
+		
+
+#cardNumber{
+	position:absolute;
+	margin-top: 126px;
+	margin-left: 16px;
+	width:240px;
+}
+	#month{
+	position:absolute;
+	margin-top: 158px;
+	margin-left: 128px;
+	width: 15px;
+	height: 10px;
+}
+	#year{
+	position:absolute;
+	margin-top: 158px;
+	margin-left: 155px;
+	width: 15px;
+	height: 10px;
+}
+	#svv{
+	position:absolute;
+	margin-top: 200px;
+	margin-left: 518px;
+	width: 32px;
+	height: 20px;
+}
